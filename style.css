@@ -1,0 +1,61 @@
+body{
+    background-color: #fff4d9;
+  }
+
+.mainDiv{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #ffe49e;
+margin: 50px;
+padding: 50px;
+border: none;
+border-radius: 15px;
+}
+
+.mainDiv input{
+padding: 15px;
+border: none;
+border-radius: 10px;
+}
+
+.botões {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+}
+
+.mainDiv button{
+border: none;
+border-radius: 10px;
+padding: 10px;
+margin: 5px;
+background-color: white;
+cursor: pointer;
+}
+
+.botões button{
+border: none;
+border-radius: 10px;
+padding: 10px;
+margin: 5px;
+background-color: white;
+cursor: pointer;
+}
+
+.completo {
+text-decoration: line-through;
+color: gray;
+}
+
+.status {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.status p{
+padding: 0px 10px 0px 10px; 
+}
